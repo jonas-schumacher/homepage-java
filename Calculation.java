@@ -12,7 +12,7 @@ public class Calculation {
 	 * Remarks at the beginning: 
 	 * In every time zone, the sun should [in theory] be highest at 12 noon (winter time in the northern hemisphere)
 	 * For CET time zone, Prague is a good example for the "center" of that time zone 
-	 * 		ALTHOUGH: due to the equation of time, the "highest sun" at 12 noon oscillates roughly between Munich and Bratislava
+	 * ALTHOUGH: due to the equation of time, the "highest sun" at 12 noon oscillates roughly between Munich and Bratislava
 	 * So the more you go west or east (in the same time zone), the later or earlier everything will happen 
 	 */
 	
@@ -174,7 +174,6 @@ public class Calculation {
 				}
 			}
 		}
-
 	}
 	
 /**
@@ -303,8 +302,6 @@ public class Calculation {
 	
 	/**
 	 * Save azimuth & altitude
-	 * @author Jonas Schumacher
-	 *
 	 */
 	private class Position {
 	    private final double azimuth;
@@ -326,8 +323,6 @@ public class Calculation {
 	
 	/**
 	 * Convert double hour input to (int hour + int minute)
-	 * @author Jonas Schumacher
-	 *
 	 */
 	private class Time {
 		private double innerTime;

@@ -18,7 +18,7 @@ import org.eclipse.swt.custom.SashForm;
 import org.eclipse.wb.swt.SWTResourceManager;
 
 /**
- * GUI for running "Calculation" based on user input for time (calendar) and position (latitude + longitude)
+ * GUI for running class Calculation based on user input for time (calendar) and position (latitude + longitude)
  * @author Jonas Schumacher
  *
  */
@@ -79,9 +79,9 @@ public class Gui extends Composite {
 		/*
 		 * Latitude
 		 */
-		
 		lblNewLabel_1 = new Label(this, SWT.NONE);
 		new Label(this, SWT.NONE);
+		
 		/*
 		 * Calendar
 		 */
@@ -100,7 +100,6 @@ public class Gui extends Composite {
 		/*
 		 * Longitude
 		 */
-		
 		lblNewLabel_2 = new Label(this, SWT.NONE);
 		new Label(this, SWT.NONE);
 		Label lblLongitude_1 = new Label(this, SWT.NONE);
@@ -114,12 +113,10 @@ public class Gui extends Composite {
 		GridData gd_lon = new GridData(SWT.FILL, SWT.TOP, true, false, 1, 1);
 		gd_lon.widthHint = 135;
 		lon.setLayoutData(gd_lon);
-		
 
 		/*
 		 * Run-Button
 		 */
-
 		btnRun = new Button(this, SWT.NONE);
 		btnRun.addSelectionListener(new SelectionAdapter() {
 			@Override
@@ -208,7 +205,6 @@ public class Gui extends Composite {
 		lblVerticalSpace2.setLayoutData(gd_lblFgasdf);
 		lblVerticalSpace2.setText("        ");
 		
-		
 		// Culmination time
 		Label lblSunpeak = new Label(composite, SWT.NONE);
 		GridData gd_lblSunpeak = new GridData(SWT.LEFT, SWT.CENTER, false, false, 1, 1);
@@ -258,5 +254,4 @@ public class Gui extends Composite {
 		result_angle3.setText("        ");
 		new Label(composite, SWT.NONE);
 	}
-
 }
