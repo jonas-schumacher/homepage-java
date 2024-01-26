@@ -1,2 +1,2 @@
 # Java code for homepage
-more information on https://www.jonas-schumacher.com/
+more information on https://schumacher.pythonanywhere.com/homepage/
